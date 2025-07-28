@@ -1,0 +1,680 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/tester/fastapi/connectPrinter']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4058178] using StatReload
+INFO:     Started server process [4058180]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2025-06-30 00:26:19,117 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 00:26:19,117 - ats_real_printer_api - INFO - [10.48.212.178:9100] Getting variable: file.dir with timeout 10000ms.
+2025-06-30 00:26:19,118 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '! U1 getvar "file.dir"...' and waiting for 10000ms for response.
+2025-06-30 00:26:29,118 - ats_real_printer_api - INFO - [10.48.212.178:9100] Received response for file.dir: "
+- DIR *:*.* 
+* E:SYSLOG.TXT      9951          
+* E:WEBLINK1_CA.NRD      9690  P       
+* E:WE...
+2025-06-30 00:26:29,119 - ats_real_printer_api - INFO - 成功获取打印机 10.48.212.178:9100 变量 file.dir: - DIR *:*.* 
+* E:SYSLOG.TXT      9951          
+* E:WEBLINK1_CA.NRD      9690  P       
+* E:WEBLINK2_CERT.NRD      5329  P       
+* Z:0.TTF    125904  P    0  
+* Z:A.FNT      6839  P    A  
+* Z:ALERTCFG.NRD      6015  P       
+* Z:AZTEC.BAR         0  P       
+* Z:B.FNT      7746  P    B  
+* Z:CODABAR.BAR         0  P       
+* Z:CODABLK.BAR         0  P       
+* Z:CODE11.BAR         0  P       
+* Z:CODE128.BAR         0  P       
+* Z:CODE39.BAR         0  P       
+* Z:CODE49.BAR         0  P       
+* Z:CODE93.BAR         0  P       
+* Z:CSR_WLAN_CERT.CSR       838  P       
+* Z:D.FNT     10648  P    CD 
+* Z:E12.FNT     15691  P    E  
+* Z:E24.FNT     47056  P       
+* Z:E6.FNT      8520  P       
+* Z:E8.FNT     10893  P       
+* Z:EAN-13.BAR         0  P       
+* Z:EAN-8.BAR         0  P       
+* Z:ELEMENTOUT.ZPL      3830  P       
+* Z:EPL1.FNT     17718  P       
+* Z:EPL2.FNT     20918  P       
+* Z:EPL3.FNT     24118  P       
+* Z:EPL4.FNT     32870  P       
+* Z:EPL5.FNT     58038  P       
+* Z:EPL6.FNT      8498  P       
+* Z:EPL7.FNT      8928  P       
+* Z:F.FNT     13275  P    F  
+* Z:FIRSTDOTLOCATION.ZPL     10420  P       
+* Z:FONT0.FNT      5901  P       
+* Z:FONT1.FNT      7134  P       
+* Z:FONT2.FNT     11484  P       
+* Z:FONT3.FNT     10804  P       
+* Z:FONT4.FNT     15676  P       
+* Z:FONT5.FNT     19852  P       
+* Z:FONT6.FNT     27508  P       
+* Z:FONT7.FNT     11252  P       
+* Z:FONT8.FNT      6412  P       
+* Z:G.FNT     49663  P    G  
+* Z:GS.FNT      5470  P    ?  
+* Z:H12.FNT     11536  P    H  
+* Z:H24.FNT     30436  P       
+* Z:H6.FNT      7247  P       
+* Z:H8.FNT      7825  P       
+* Z:I2OF5.BAR         0  P       
+* Z:IDMATRIX.BAR         0  P       
+* Z:IMAGECOMPRESSION.ZPL      9524  P       
+* Z:IND2OF5.BAR         0  P       
+* Z:LANGUAGE.BMP       400  P       
+* Z:LOGMARS.BAR         0  P       
+* Z:LOGO.PNG     20154  P       
+* Z:MAXICODE.BAR         0  P       
+* Z:MIB200.TXT     45159  P       
+* Z:MICROPDF.BAR         0  P       
+* Z:MSICODE.BAR         0  P       
+* Z:NETWORK.BMP       400  P       
+* Z:ONEDOT.BMP        58  P       
+* Z:P.FNT       116  P    P  
+* Z:PDF417.BAR         0  P       
+* Z:PLANETCD.BAR         0  P       
+* Z:PLESSEY.BAR         0  P       
+* Z:PORTS.BMP       400  P       
+* Z:POSTNET.BAR         0  P       
+* Z:Q.FNT       116  P    Q  
+* Z:QRCODE.BAR         0  P       
+* Z:R.FNT       116  P    R  
+* Z:REGDB.NRD    588206  P       
+* Z:RFIDRCPE.XML     40607  P       
+* Z:RFID_HOP.NRD    102345  P       
+* Z:RSS.BAR         0  P       
+* Z:S.FNT       116  P    S  
+* Z:S2OF5.BAR         0  P       
+* Z:SENSORS.BMP       400  P       
+* Z:SERVER      2048  P       
+* Z:SETTINGS.BMP       400  P       
+* Z:SIGNAL_STRENGTH_0_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_1_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_2_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_3_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_4_BAR_ICON.BMP       128  P       
+* Z:T.FNT       116  P    T  
+* Z:T0000.FNT      7532  P       
+* Z:T0001.FNT      8044  P       
+* Z:T0002.FNT     12376  P       
+* Z:T0007.FNT      7532  P       
+* Z:T0020.FNT       116  P       
+* Z:T0021.FNT       116  P       
+* Z:T0022.FNT       116  P       
+* Z:T0023.FNT     27436  P       
+* Z:T0024.FNT     25048  P       
+* Z:T0025.TTF     92552  P       
+* Z:T0026.TTF     96400  P       
+* Z:T0028.TTF    121260  P       
+* Z:T0030.FNT       116  P       
+* Z:T0031.FNT       116  P       
+* Z:T0032.FNT       116  P       
+* Z:T0033.FNT       116  P       
+* Z:T0034.FNT       116  P       
+* Z:T0035.FNT       116  P       
+* Z:T0036.FNT       116  P       
+* Z:T0037.FNT       116  P       
+* Z:T0038.FNT       116  P       
+* Z:T0039.FNT       116  P       
+* Z:T0040.FNT       116  P       
+* Z:T0041.FNT       116  P       
+* Z:T0061.TTF    169188  P       
+* Z:T0062.TTF    129380  P       
+* Z:T0067.TTF    664972  P       
+* Z:TLC39.BAR         0  P       
+* Z:TOOLS.BMP       400  P       
+* Z:TT0003M_.TTF    169188  P       
+* Z:TT0005M_.TTF    141592  P       
+* Z:U.FNT       116  P    U  
+* Z:UIF.SS     11596  P       
+* Z:UPC-A.BAR         0  P       
+* Z:UPC-E.BAR         0  P       
+* Z:UPC-EAN.BAR         0  P       
+* Z:UTT.SS     11588  P       
+* Z:V.FNT       116  P    V  
+
+-  31981568 bytes free R: RAM 
+-  64462848 bytes free E: ONBOARD FLASH. 耗时: 10.0020s
+INFO:     10.48.211.8:13006 - "POST /printer/get_variable HTTP/1.1" 200 OK
+2025-06-30 00:26:29,119 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 00:26:44,960 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 00:26:44,960 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 00:26:50,960 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0018s
+INFO:     10.48.211.8:13392 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 00:26:50,962 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 00:27:03,399 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 00:27:03,399 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "media.speed" "3.0".... 耗时: 0.0020s
+INFO:     10.48.211.8:13676 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 00:27:03,401 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 00:27:39,942 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 00:27:39,943 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 00:27:45,944 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0024s
+INFO:     172.19.0.6:60058 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 00:27:45,951 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 00:28:15,712 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 00:28:15,712 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 00:28:21,714 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0031s
+INFO:     172.19.0.6:40832 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 00:28:21,720 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 00:28:31,993 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 00:28:31,993 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "zpl.relative_darkness" "30".... 耗时: 0.0009s
+INFO:     172.19.0.6:55862 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 00:28:31,994 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 08:42:12,346 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:14,375 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:16,378 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:16,379 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 08:42:16,379 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:51102 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 08:42:16,583 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:18,585 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:20,587 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:20,587 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 08:42:20,587 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:51762 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 08:42:20,844 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:22,845 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:24,847 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:24,847 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 08:42:24,847 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:51770 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 08:42:25,054 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:27,057 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:29,061 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 08:42:29,062 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 08:42:29,062 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:58162 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:02:59,456 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:01,460 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:03,462 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:03,462 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:03,462 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:49204 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:03:03,659 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:05,664 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:07,668 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:07,668 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:07,668 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:49216 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:03:07,871 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:09,872 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:11,874 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:11,874 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:11,874 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:49590 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:03:12,107 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:14,108 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:16,110 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:16,110 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:16,110 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:49598 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:03:39,523 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:41,527 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:43,531 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:43,531 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:43,531 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:59602 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:03:43,734 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:45,736 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:47,739 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:47,739 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:47,739 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:59618 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:03:47,997 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:49,998 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:52,000 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:52,000 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:52,000 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:55912 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:03:52,259 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:54,262 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:56,263 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-06-30 09:03:56,263 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-06-30 09:03:56,263 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:55918 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-06-30 09:17:47,882 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:17:47,883 - ats_real_printer_api - INFO - [10.48.212.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 09:17:53,884 - ats_real_printer_api - INFO - 发送数据到 10.48.212.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0677s
+INFO:     172.19.0.6:45300 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 09:17:53,890 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:19:09,981 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:19:09,981 - ats_real_printer_api - INFO - [10.48.212.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 09:19:15,982 - ats_real_printer_api - INFO - 发送数据到 10.48.212.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.1887s
+INFO:     172.19.0.6:38420 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 09:19:15,983 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:19:35,883 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:19:35,883 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "bluetooth.discoverable" "on".... 耗时: 0.0306s
+INFO:     172.19.0.6:46290 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:19:35,884 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:19:36,092 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:19:36,092 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "bluetooth.friendly_name" "NewName".... 耗时: 0.0095s
+INFO:     172.19.0.6:46304 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:19:36,092 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:19:36,301 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:19:36,302 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "bluetooth.enable" "on".... 耗时: 0.0118s
+INFO:     172.19.0.6:46318 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:19:36,302 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:23:19,611 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:23:19,611 - ats_real_printer_api - INFO - [10.48.212.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 09:23:25,611 - ats_real_printer_api - INFO - 发送数据到 10.48.212.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.1065s
+INFO:     172.19.0.6:57448 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 09:23:25,615 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:23:40,605 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:23:40,605 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "bluetooth.discoverable" "on".... 耗时: 0.0335s
+INFO:     172.19.0.6:40344 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:23:40,606 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:23:40,917 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:23:40,917 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "bluetooth.friendly_name" "NewName".... 耗时: 0.1170s
+INFO:     172.19.0.6:40346 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:23:40,918 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:23:41,128 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:23:41,128 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "bluetooth.enable" "on".... 耗时: 0.0220s
+INFO:     172.19.0.6:40356 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:23:41,129 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:24:35,438 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:24:35,438 - ats_real_printer_api - INFO - [10.48.212.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 09:24:41,439 - ats_real_printer_api - INFO - 发送数据到 10.48.212.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.1026s
+INFO:     172.19.0.6:43152 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 09:24:41,441 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:34:28,458 - ats_real_printer_api - INFO - Connected to printer at 10.48.211.148:9100
+2025-06-30 09:34:28,458 - ats_real_printer_api - INFO - [10.48.211.148:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 09:34:34,459 - ats_real_printer_api - INFO - 发送数据到 10.48.211.148:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.3566s
+INFO:     172.19.0.6:33082 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 09:34:34,460 - ats_real_printer_api - INFO - Disconnected from printer 10.48.211.148:9100
+2025-06-30 09:46:30,426 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:46:30,426 - ats_real_printer_api - INFO - [10.48.212.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 09:46:36,427 - ats_real_printer_api - INFO - 发送数据到 10.48.212.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.1316s
+INFO:     172.19.0.6:49794 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 09:46:36,434 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:50:57,812 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:50:57,812 - ats_real_printer_api - INFO - [10.48.212.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 09:51:03,813 - ats_real_printer_api - INFO - 发送数据到 10.48.212.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.0999s
+INFO:     172.19.0.6:41106 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 09:51:03,820 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:51:15,150 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:51:15,151 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "print.tone" "desired_value".... 耗时: 0.1368s
+INFO:     172.19.0.6:34150 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:51:15,152 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 09:51:15,359 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.96:9100
+2025-06-30 09:51:15,359 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.96:9100: ! U1 setvar "zpl.relative_darkness" "desired_value".... 耗时: 0.0211s
+INFO:     172.19.0.6:34164 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 09:51:15,359 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.96:9100
+2025-06-30 10:24:07,576 - ats_real_printer_api - INFO - Connected to printer at 10.48.211.148:9100
+2025-06-30 10:24:07,576 - ats_real_printer_api - INFO - [10.48.211.148:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 10:24:13,578 - ats_real_printer_api - INFO - 发送数据到 10.48.211.148:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.0204s
+INFO:     172.19.0.6:59064 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 10:24:13,580 - ats_real_printer_api - INFO - Disconnected from printer 10.48.211.148:9100
+2025-06-30 11:55:18,861 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 11:55:18,861 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 11:55:24,863 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0032s
+INFO:     172.19.0.6:34994 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 11:55:24,866 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 11:57:12,425 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 11:57:12,425 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 11:57:18,427 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0023s
+INFO:     172.19.0.6:60590 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 11:57:18,433 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 12:01:07,317 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 12:01:07,317 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 12:01:13,319 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0028s
+INFO:     172.19.0.6:43684 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 12:01:13,325 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 12:01:22,764 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 12:01:22,764 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "print.tone" "10.0".... 耗时: 0.0009s
+INFO:     172.19.0.6:41846 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 12:01:22,765 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 12:04:50,836 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 12:04:50,836 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-06-30 12:04:56,836 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0012s
+INFO:     172.19.0.6:57284 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-06-30 12:04:56,838 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 12:05:05,013 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 12:05:05,013 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "device.friendly_name" "chenqiuguang".... 耗时: 0.0009s
+INFO:     172.19.0.6:39358 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 12:05:05,014 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-06-30 12:05:05,198 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-06-30 12:05:05,198 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "bluetooth.enable" "off".... 耗时: 0.0009s
+INFO:     172.19.0.6:39360 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-06-30 12:05:05,199 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-01 09:59:13,164 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:15,191 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:17,193 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:17,193 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 09:59:17,193 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:57464 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 09:59:17,415 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:19,419 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:21,423 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:21,423 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 09:59:21,423 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:34360 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 09:59:21,625 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:23,628 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:25,632 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:25,632 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 09:59:25,632 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:34368 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 09:59:25,881 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:27,883 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:29,886 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:29,886 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 09:59:29,886 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:59106 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 09:59:47,540 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:49,542 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:51,544 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:51,544 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 09:59:51,544 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:56370 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 09:59:51,804 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:53,807 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:55,810 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:55,810 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 09:59:55,810 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:56382 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 09:59:56,062 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 09:59:58,063 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 10:00:00,066 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 10:00:00,066 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 10:00:00,066 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:60548 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 10:00:00,268 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 10:00:02,271 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 10:00:04,275 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 10:00:04,275 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 10:00:04,275 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:60564 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 10:04:15,609 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 10:04:15,609 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 10:04:21,610 - ats_real_printer_api - INFO - 发送数据到 10.48.203.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0028s
+INFO:     172.19.0.6:33518 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-01 10:04:21,613 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 10:05:12,850 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 10:05:12,850 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 10:05:24,852 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 10:05:24,852 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:55270 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 10:05:24,853 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 10:05:25,135 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 10:05:25,135 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 10:05:37,138 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 10:05:37,138 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:33192 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 10:05:37,139 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 10:05:37,342 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 10:05:37,342 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 10:05:49,343 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 10:05:49,343 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:36880 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 10:05:49,344 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 10:05:49,543 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 10:05:49,543 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 10:06:01,546 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 10:06:01,546 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:42958 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 10:06:01,548 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:02:56,446 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:02:56,446 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:03:02,448 - ats_real_printer_api - INFO - 发送数据到 10.48.203.96:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0031s
+INFO:     172.19.0.6:42196 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-01 11:03:02,464 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:03:21,919 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:03:21,919 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:03:33,921 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:03:33,922 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:51140 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:03:33,923 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:03:34,126 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:03:34,126 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:03:46,127 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:03:46,127 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:54506 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:03:46,129 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:03:46,332 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:03:46,332 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:03:58,333 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:03:58,334 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:33528 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:03:58,336 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:03:58,538 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:03:58,538 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:04:10,540 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:04:10,541 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:47680 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:04:10,543 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:07:03,778 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:07:03,778 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:07:15,779 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:07:15,780 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:32886 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:07:15,781 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:07:15,992 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:07:15,992 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:07:27,994 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:07:27,994 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:56944 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:07:27,996 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:07:28,196 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:07:28,196 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:07:40,199 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:07:40,199 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:47966 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:07:40,200 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 11:07:59,688 - ats_real_printer_api - INFO - Connected to printer at 10.48.203.96:9100
+2025-07-01 11:07:59,689 - ats_real_printer_api - INFO - [10.48.203.96:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 11:08:11,691 - ats_real_printer_api - ERROR - Timeout occurred while reading data from 10.48.203.96:9100 after 6000ms.
+2025-07-01 11:08:11,691 - ats_real_printer_api - ERROR - 向 10.48.203.96:9100 发送数据并等待响应时出错: Timeout while reading data from printer after 6000ms.
+INFO:     172.19.0.6:56876 - "POST /printer/send_and_wait_for_response HTTP/1.1" 500 Internal Server Error
+2025-07-01 11:08:11,693 - ats_real_printer_api - INFO - Disconnected from printer 10.48.203.96:9100
+2025-07-01 13:23:15,011 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:17,013 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:19,014 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:19,014 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 13:23:19,014 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:57600 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 13:23:19,269 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:21,270 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:23,273 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:23,273 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 13:23:23,273 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:57614 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 13:23:23,477 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:25,479 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:27,482 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:27,482 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 13:23:27,482 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:57622 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 13:23:27,684 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:29,686 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:31,689 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 打印机的ip地址:9100: [Errno -3] Temporary failure in name resolution
+2025-07-01 13:23:31,689 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 打印机的ip地址:9100: Failed to connect to printer at 打印机的ip地址:9100 after 3 attempts.
+2025-07-01 13:23:31,689 - ats_real_printer_api - WARNING - Printer 打印机的ip地址:9100 is not connected or already closed.
+INFO:     172.19.0.6:56926 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-01 22:03:21,053 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-01 22:03:21,066 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 22:03:27,111 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0451s
+INFO:     172.19.0.6:48782 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-01 22:03:27,169 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-01 22:03:44,674 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-01 22:03:44,674 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-01 22:03:50,677 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0035s
+INFO:     172.19.0.6:39776 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-01 22:03:50,679 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-01 22:04:05,185 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-01 22:04:05,185 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "print.tone" "7.0".... 耗时: 0.0024s
+INFO:     172.19.0.6:48222 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-07-01 22:04:05,194 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-01 22:04:05,382 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-01 22:04:05,382 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "zpl.relative_darkness" "-50".... 耗时: 0.0009s
+INFO:     172.19.0.6:48236 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-07-01 22:04:05,383 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-05 13:10:05,536 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.110:9100
+2025-07-05 13:10:05,567 - ats_real_printer_api - INFO - [10.48.212.110:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-05 13:10:11,573 - ats_real_printer_api - INFO - 发送数据到 10.48.212.110:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.0505s
+INFO:     172.19.0.6:36864 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-05 13:10:11,655 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.110:9100
+2025-07-05 13:10:20,249 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.110:9100
+2025-07-05 13:10:20,249 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.110:9100: ! U1 setvar "wlan.essid" "NewSoftware".... 耗时: 0.0010s
+INFO:     172.19.0.6:60044 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-07-05 13:10:20,250 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.110:9100
+2025-07-07 19:37:50,700 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:37:50,755 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-07 19:37:56,782 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0855s
+INFO:     172.19.0.6:56868 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-07 19:37:56,819 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-07 19:39:39,365 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:39:39,365 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-07 19:39:45,366 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0275s
+INFO:     172.19.0.6:45168 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-07 19:39:45,368 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-07 19:47:20,928 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:47:20,928 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-07 19:47:26,929 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0044s
+INFO:     172.19.0.6:34980 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-07 19:47:26,931 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-07 19:47:39,920 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:47:39,920 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "print.tone" "10.0".... 耗时: 0.0009s
+INFO:     172.19.0.6:60942 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-07-07 19:47:39,929 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-07 19:47:40,130 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:47:40,130 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "zpl.relative_darkness" "20".... 耗时: 0.0009s
+INFO:     172.19.0.6:60944 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-07-07 19:47:40,130 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-07 19:50:33,862 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:50:33,863 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-07 19:50:39,863 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0018s
+INFO:     172.19.0.6:59810 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-07 19:50:39,870 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-07 19:50:53,097 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:50:53,097 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-07 19:50:59,098 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0017s
+INFO:     172.19.0.6:59666 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-07 19:50:59,101 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-07 19:51:08,492 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-07 19:51:08,507 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "zpl.relative_darkness" "30".... 耗时: 0.0160s
+INFO:     172.19.0.6:49312 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-07-07 19:51:08,507 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-14 09:46:45,827 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-14 09:46:45,884 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-14 09:46:51,894 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0716s
+INFO:     172.19.0.6:39046 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-14 09:46:51,901 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-14 09:51:05,155 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-14 09:51:05,155 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-14 09:51:11,178 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0237s
+INFO:     172.19.0.6:40232 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-14 09:51:11,184 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-14 09:51:48,047 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-14 09:51:48,047 - ats_real_printer_api - INFO - [10.48.212.178:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-14 09:51:54,048 - ats_real_printer_api - INFO - 发送数据到 10.48.212.178:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"off","type":"bool","range":"on,off","clone":true,.... 耗时: 6.0013s
+INFO:     172.19.0.6:52610 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-14 09:51:54,050 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-14 09:52:03,264 - ats_real_printer_api - INFO - Connected to printer at 10.48.212.178:9100
+2025-07-14 09:52:03,272 - ats_real_printer_api - INFO - 成功发送命令到 10.48.212.178:9100: ! U1 setvar "print.tone" "15.0".... 耗时: 0.0097s
+INFO:     172.19.0.6:54056 - "POST /printer/send_command HTTP/1.1" 200 OK
+2025-07-14 09:52:03,278 - ats_real_printer_api - INFO - Disconnected from printer 10.48.212.178:9100
+2025-07-15 10:47:40,324 - ats_real_printer_api - INFO - Connected to printer at 10.48.211.144:9100
+2025-07-15 10:47:40,380 - ats_real_printer_api - INFO - [10.48.211.144:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-15 10:47:46,382 - ats_real_printer_api - INFO - 发送数据到 10.48.211.144:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.1247s
+INFO:     172.19.0.6:47262 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-15 10:47:46,402 - ats_real_printer_api - INFO - Disconnected from printer 10.48.211.144:9100
+2025-07-19 15:31:14,287 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:16,377 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:18,382 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:18,391 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:31:18,421 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:36798 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:31:21,864 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:25,897 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:29,927 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:29,927 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:31:29,927 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:40452 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:31:32,231 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:34,233 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:38,312 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:38,312 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:31:38,312 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:59568 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:31:40,619 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:42,623 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:45,671 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:31:45,671 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:31:45,671 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:46628 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:47:28,969 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:31,979 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:33,986 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:33,986 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:47:33,986 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:46640 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:47:36,263 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:40,295 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:42,300 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:42,300 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:47:42,301 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:46646 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:47:44,583 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:48,616 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:50,619 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:50,619 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:47:50,619 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:45312 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:47:52,903 - ats_real_printer_api - ERROR - Attempt 1: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:55,911 - ats_real_printer_api - ERROR - Attempt 2: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:57,913 - ats_real_printer_api - ERROR - Attempt 3: Failed to connect to printer at 10.48.212.178:9100: [Errno 113] Connect call failed ('10.48.212.178', 9100)
+2025-07-19 15:47:57,913 - ats_real_printer_api - ERROR - Dependency error: Unable to connect to printer 10.48.212.178:9100: Failed to connect to printer at 10.48.212.178:9100 after 3 attempts.
+2025-07-19 15:47:57,913 - ats_real_printer_api - WARNING - Printer 10.48.212.178:9100 is not connected or already closed.
+INFO:     172.19.0.6:57582 - "POST /printer/send_and_wait_for_response HTTP/1.1" 503 Service Unavailable
+2025-07-19 15:48:05,795 - ats_real_printer_api - INFO - Connected to printer at 10.48.211.156:9100
+2025-07-19 15:48:05,795 - ats_real_printer_api - INFO - [10.48.211.156:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-19 15:48:11,809 - ats_real_printer_api - INFO - 发送数据到 10.48.211.156:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.0260s
+INFO:     172.19.0.6:43328 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-19 15:48:11,837 - ats_real_printer_api - INFO - Disconnected from printer 10.48.211.156:9100
+2025-07-19 15:48:34,672 - ats_real_printer_api - INFO - Connected to printer at 10.48.211.156:9100
+2025-07-19 15:48:34,672 - ats_real_printer_api - INFO - [10.48.211.156:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-19 15:48:40,672 - ats_real_printer_api - INFO - 发送数据到 10.48.211.156:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.0460s
+INFO:     172.19.0.6:45022 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-19 15:48:40,674 - ats_real_printer_api - INFO - Disconnected from printer 10.48.211.156:9100
+2025-07-19 15:49:35,608 - ats_real_printer_api - INFO - Connected to printer at 10.48.211.156:9100
+2025-07-19 15:49:35,608 - ats_real_printer_api - INFO - [10.48.211.156:9100] send_and_wait_for_response: Sending '{}{"allconfig":null}...' and waiting for 6000ms for response.
+2025-07-19 15:49:41,609 - ats_real_printer_api - INFO - 发送数据到 10.48.211.156:9100 成功。接收到响应: {"allconfig":
+{"bluetooth.discoverable":{"value":"on","type":"bool","range":"on,off","clone":true,".... 耗时: 6.0786s
+INFO:     172.19.0.6:40832 - "POST /printer/send_and_wait_for_response HTTP/1.1" 200 OK
+2025-07-19 15:49:41,614 - ats_real_printer_api - INFO - Disconnected from printer 10.48.211.156:9100

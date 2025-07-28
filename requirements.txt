@@ -1,0 +1,8 @@
+fastmcp==2.8.0
+smbprotocol==0.1.0
+aiohttp==3.12.13
+requests==2.32.4
+fastapi
+uvicorn
+pydantic
+python-multipart
